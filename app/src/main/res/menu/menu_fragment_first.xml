@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tp1.MainActivity">
+    <item
+        android:id="@+id/cleanForm"
+        android:orderInCategory="100"
+        android:title="@string/cleanForm"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/addPhone"
+        android:title="Ajouter son numéro de téléphone" />
+    <item
+        android:id="@+id/wiki"
+        android:title="Voir la page wikipedia de la page" />
+</menu>
